@@ -10867,6 +10867,16 @@ button.close {
   height: 375px;
 }
 
+.clinical-section .vitals-content1 {
+  background: #aeddd4;
+  color: #fff;
+}
+
+.clinical-section .vitals-content2 {
+  background: #96d4c7;
+  color: #fff;
+}
+
 .footer {
   background-color: #b3b3b3;
   height: 150px;
