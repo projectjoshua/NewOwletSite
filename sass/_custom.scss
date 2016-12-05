@@ -1,4 +1,4 @@
-//navbar
+// Navbar Section
 .navbar {
   font-size: 14px;
   margin-bottom: 0px;
@@ -20,7 +20,9 @@
     height: 30px;
   }
 }
-//showcase banner
+
+// Showcase Section
+
 .showcase {
   background: url(../img/baby_dark.png) no-repeat;
   font-family: 'Raleway', sans-serif;
@@ -48,9 +50,38 @@
     }
 }
 
+// Clinical Section
+
+.clinical-section {
+  margin-top:7px;
+  .clinical-content {
+    background: #929497;
+    height:375px;
+    h3 {
+      color: #c5e6de;
+      font-weight: 200;
+    }
+    p {
+      color: #fff;
+      font-weight: 200;
+      letter-spacing: 1px;
+      line-height: 15px;
+    }
+  }
+  .clinical-image {
+    background: ghostwhite;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  img {
+    height: 375px;
+
+  }
+}
 
 
-//footer
+
+// Footer Section
 .footer {
   background-color: #b3b3b3;
   height: 150px;

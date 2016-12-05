@@ -10836,6 +10836,37 @@ button.close {
   border-color: transparent;
 }
 
+.clinical-section {
+  margin-top: 7px;
+}
+
+.clinical-section .clinical-content {
+  background: #929497;
+  height: 375px;
+}
+
+.clinical-section .clinical-content h3 {
+  color: #c5e6de;
+  font-weight: 200;
+}
+
+.clinical-section .clinical-content p {
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.clinical-section .clinical-image {
+  background: ghostwhite;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.clinical-section img {
+  height: 375px;
+}
+
 .footer {
   background-color: #b3b3b3;
   height: 150px;
