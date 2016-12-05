@@ -10785,7 +10785,7 @@ button.close {
 }
 
 .navbar {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0px;
 }
 
@@ -10797,7 +10797,7 @@ button.close {
   margin-left: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
@@ -10809,39 +10809,31 @@ button.close {
 .showcase {
   background: url(../img/baby_dark.png) no-repeat;
   font-family: 'Raleway', sans-serif;
-  height: 600px;
+  height: 575px;
   color: #fff;
 }
 
 .showcase h1 {
-  font-size: 70px;
-  font-weight: 200;
-  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 50px;
+  color: #c5e6de;
 }
 
 .showcase p {
   font-weight: 200;
-  padding-bottom: 35px;
+  padding-bottom: 5px;
+  font-size: 16px;
 }
 
 .showcase .btn {
   border-radius: 5px;
-  background: #fff;
+  background: transparent;
   border-color: #e9e9e9;
-  padding: 5px 30px;
+  padding: 1px 1px;
   color: #8dcdbf;
-  font-size: 30px;
-}
-
-.featured {
-  background-color: #e7f6f3;
-  height: 150px;
-  font-family: 'Roboto', sans-serif;
-  color: #989898;
-}
-
-.featured h3 {
-  font-size: 16px;
+  font-size: 60px;
+  border-color: transparent;
 }
 
 .footer {
