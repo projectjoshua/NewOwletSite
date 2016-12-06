@@ -64,43 +64,57 @@
   img {
     padding-bottom: 30px;
     height: 85px;
+    margin: 0 auto;
   }
 }
 
-// Clinical Section
+// Info Section
 
-.clinical-section {
+.info-section {
   margin-top:7px;
   .clinical-content {
     background: #929497;
     height:375px;
-    h3 {
+    padding-top: 8%;
+
+    h2 {
       color: #c5e6de;
       font-weight: 200;
     }
     p {
       color: #fff;
-      font-weight: 200;
-      letter-spacing: 1px;
-      line-height: 15px;
+      font-weight: 400;
+      letter-spacing: 1.50px;
+      line-height: 18px;
+    }
+    .row {
+      margin: auto 70px;
     }
   }
   .clinical-image {
-    background: ghostwhite;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 4px;
   }
   img {
     height: 375px;
-
   }
-  .vitals-content1 {
+  .vitals-content-left{
     background: #aeddd4;
     color: #fff;
   }
-  .vitals-content2 {
+
+  .vitals-content-right {
     background: #96d4c7;
     color: #fff;
+  }
+  .bottom {
+    padding-bottom: 7px;
+    h3 {
+      padding-top: 20%;
+    }
+    p {
+      padding-bottom: 20%;
+    }
   }
 }
 
@@ -138,13 +152,50 @@
   background: #c7e6df;
   padding: 0px;
   border: 0px;
+  img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height:360px;
+  }
   .caption {
     background: #fff;
   }
 }
 
+// Data Section
+.data-section {
+  background: #929497;
+  color: #fff;
+  margin-top: 7px;
+}
+
+// Testimonials Section
+.testimonials-section {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+// SignUp Section
+.signup-section {
+  background: #f7f7f5;
+  height:300px;
+  margin-bottom: 7px;
+  h4 {
+    color: #8cccbf;
+    font-weight: 200;
+  }
+}
+
 // Footer Section
 .footer {
-  background-color: #b3b3b3;
-  height: 150px;
+  background-color: #929497;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #fff;
+  ul {
+    list-style-type: none;
+  }
+  .address-block {
+  }
 }

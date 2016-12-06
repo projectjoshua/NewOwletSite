@@ -10836,48 +10836,162 @@ button.close {
   border-color: transparent;
 }
 
-.clinical-section {
+.feature-section {
+  margin-top: 7px;
+  background: #f7f7f5;
+  color: #cccccc;
+}
+
+.feature-section h4 {
+  font-weight: 300;
+  padding-top: 15px;
+  padding-bottom: 11px;
+}
+
+.feature-section img {
+  padding-bottom: 30px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.info-section {
   margin-top: 7px;
 }
 
-.clinical-section .clinical-content {
+.info-section .clinical-content {
   background: #929497;
   height: 375px;
+  padding-top: 8%;
 }
 
-.clinical-section .clinical-content h3 {
+.info-section .clinical-content h2 {
   color: #c5e6de;
   font-weight: 200;
 }
 
-.clinical-section .clinical-content p {
+.info-section .clinical-content p {
   color: #fff;
-  font-weight: 200;
-  letter-spacing: 1px;
-  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: 1.50px;
+  line-height: 18px;
 }
 
-.clinical-section .clinical-image {
-  background: ghostwhite;
+.info-section .clinical-content .row {
+  margin: auto 70px;
+}
+
+.info-section .clinical-image {
   padding-right: 0px;
-  padding-left: 0px;
+  padding-left: 4px;
 }
 
-.clinical-section img {
+.info-section img {
   height: 375px;
 }
 
-.clinical-section .vitals-content1 {
+.info-section .vitals-content-left {
   background: #aeddd4;
   color: #fff;
 }
 
-.clinical-section .vitals-content2 {
+.info-section .vitals-content-right {
   background: #96d4c7;
   color: #fff;
 }
 
+.info-section .bottom {
+  padding-bottom: 7px;
+}
+
+.info-section .bottom h3 {
+  padding-top: 20%;
+}
+
+.info-section .bottom p {
+  padding-bottom: 20%;
+}
+
+.product-section {
+  background: #f7f7f5;
+}
+
+.product-section .col-md-4 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.product-section h1 {
+  font-weight: 300;
+  color: #cccccc;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.product-section h4 {
+  color: #ccc;
+  font-weight: 400;
+}
+
+.product-section h4:nth-child(3) {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-weight: 500;
+}
+
+.product-section h4:nth-child(3) a {
+  color: #ccc;
+}
+
+.product-section p {
+  color: #6d6e70;
+}
+
+.thumbnail {
+  background: #c7e6df;
+  padding: 0px;
+  border: 0px;
+}
+
+.thumbnail img {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  min-height: 360px;
+}
+
+.thumbnail .caption {
+  background: #fff;
+}
+
+.data-section {
+  background: #929497;
+  color: #fff;
+  margin-top: 7px;
+}
+
+.testimonials-section {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.signup-section {
+  background: #f7f7f5;
+  height: 300px;
+  margin-bottom: 7px;
+}
+
+.signup-section h4 {
+  color: #8cccbf;
+  font-weight: 200;
+}
+
 .footer {
-  background-color: #b3b3b3;
-  height: 150px;
+  background-color: #929497;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.footer ul {
+  list-style-type: none;
 }
