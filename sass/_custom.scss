@@ -1,11 +1,12 @@
 // ===Navbar Section
 .navbar {
   font-size: 14px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  border-color: transparent;
   #buynow {
     background-color: $button-color;
     border-color: darken($button-color, 1.5%);
-    border-radius: 14px;
+    border-radius: 10px;
     border-width: 2px;
     margin-left: 20px;
     padding-left: 20px;
@@ -16,8 +17,10 @@
   }
 }
 .navbar-brand {
+  height: 70px;
+  padding-top: 21px;
   img {
-    height: 30px;
+    height: 27px;
   }
 }
 
@@ -42,11 +45,10 @@
     .btn{
       border-radius: 5px;
       background: transparent;
-      border-color: #e9e9e9;
       padding: 1px 1px;
       color: #8dcdbf;
       font-size: 60px;
-      border-color: transparent;;
+      border-color: transparent;
     }
 }
 
@@ -57,9 +59,9 @@
   background: #f7f7f5;
   color: #cccccc;
   h4 {
-    font-weight: 300;
-    padding-top: 15px;
-    padding-bottom: 11px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 2px;
   }
   img {
     padding-bottom: 30px;
@@ -78,7 +80,7 @@
   .clinical-content {
     background: #929497;
     height:375px;
-    padding-top: 8%;
+    padding-top: 9%;
 
     h2 {
       color: #c5e6de;
@@ -95,8 +97,8 @@
     }
   }
   .clinical-image {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
   }
   img {
     height: 375px;
@@ -177,16 +179,37 @@
   }
 }
 .thumbnail {
+  position: relative;
   background: #c7e6df;
-  padding: 0px;
-  border: 0px;
+  padding: 0;
+  border: 0;
+  height: 375px;
+
   img {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    min-height:360px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .sock-img {
+    padding-top: 15%;
+    width: 160px;
+  }
+  .base-img {
+    width: 180px;
+    padding-top: 17%;
+  }
+  .phone-img {
+    padding-top: 50px;
+    width: 150px;
+  }
+  h4 {
+    font-weight: 400;
   }
   .caption {
     background: #fff;
+    font-weight: 400;
+    padding: 18px 25px 20px 25px;
+    bottom: 0;
+    position: absolute;
   }
 }
 
@@ -228,7 +251,7 @@
     margin-top: 30px;
     background-color: $button-color;
     border-color: darken($button-color, 1.5%);
-    border-radius: 14px;
+    border-radius: 10px;
     border-width: 2px;
     margin-left: 20px;
     padding-left: 20px;
@@ -236,7 +259,6 @@
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
   }
 }
 
@@ -246,14 +268,16 @@
   height:300px;
   margin-bottom: 7px;
   margin-top: 7px;
-  padding-top: 90px;
-  h4 {
+  padding-top: 80px;
+  h5 {
     color: #8cccbf;
-    font-weight: 200;
+    font-weight: 400;
+    padding-bottom: 20px;
   }
   span {
     border-radius: 8px;
     color: #fff;
+    padding: 0 25px;
     background-color: #96d4c7;
     border: transparent;
   }
@@ -266,15 +290,23 @@
   padding-top: 40px;
   padding-bottom: 30px;
   color: #fff;
+  footer
   h5 {
-    margin-top: 0px;
-  }
-  h4 {
-    margin-top: 0px;
+    margin-top: 0;
+    color: #8cccbf;
   }
   ul {
     padding-top: 10px;
     list-style-type: none;
   }
-
+  .address-block {
+    font-weight: 300;
+    address {
+      letter-spacing: 1.5px;
+      font-weight: 200;
+      font-size: 12px;
+    }
+  }
+  .footer-logo {
+  }
 }
