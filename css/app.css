@@ -10786,13 +10786,14 @@ button.close {
 
 .navbar {
   font-size: 14px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  border-color: transparent;
 }
 
 .navbar #buynow {
   background-color: #ffba93;
   border-color: #ffb58b;
-  border-radius: 14px;
+  border-radius: 10px;
   border-width: 2px;
   margin-left: 20px;
   padding-left: 20px;
@@ -10802,8 +10803,13 @@ button.close {
   font-weight: 500;
 }
 
+.navbar-brand {
+  height: 70px;
+  padding-top: 21px;
+}
+
 .navbar-brand img {
-  height: 30px;
+  height: 27px;
 }
 
 .showcase {
@@ -10829,7 +10835,6 @@ button.close {
 .showcase .btn {
   border-radius: 5px;
   background: transparent;
-  border-color: #e9e9e9;
   padding: 1px 1px;
   color: #8dcdbf;
   font-size: 60px;
@@ -10843,9 +10848,9 @@ button.close {
 }
 
 .feature-section h4 {
-  font-weight: 300;
-  padding-top: 15px;
-  padding-bottom: 11px;
+  font-weight: 400;
+  padding-top: 18px;
+  padding-bottom: 2px;
 }
 
 .feature-section img {
@@ -10861,7 +10866,7 @@ button.close {
 .info-section .clinical-content {
   background: #929497;
   height: 375px;
-  padding-top: 8%;
+  padding-top: 9%;
 }
 
 .info-section .clinical-content h2 {
@@ -10881,8 +10886,8 @@ button.close {
 }
 
 .info-section .clinical-image {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .info-section img {
@@ -10972,19 +10977,43 @@ button.close {
 }
 
 .thumbnail {
+  position: relative;
   background: #c7e6df;
-  padding: 0px;
-  border: 0px;
+  padding: 0;
+  border: 0;
+  height: 375px;
 }
 
 .thumbnail img {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  min-height: 360px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.thumbnail .sock-img {
+  padding-top: 15%;
+  width: 160px;
+}
+
+.thumbnail .base-img {
+  width: 180px;
+  padding-top: 17%;
+}
+
+.thumbnail .phone-img {
+  padding-top: 50px;
+  width: 150px;
+}
+
+.thumbnail h4 {
+  font-weight: 400;
 }
 
 .thumbnail .caption {
   background: #fff;
+  font-weight: 400;
+  padding: 18px 25px 20px 25px;
+  bottom: 0;
+  position: absolute;
 }
 
 .data-section {
@@ -11030,7 +11059,7 @@ button.close {
   margin-top: 30px;
   background-color: #ffba93;
   border-color: #ffb58b;
-  border-radius: 14px;
+  border-radius: 10px;
   border-width: 2px;
   margin-left: 20px;
   padding-left: 20px;
@@ -11038,7 +11067,6 @@ button.close {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  letter-spacing: 1px;
 }
 
 .signup-section {
@@ -11046,17 +11074,19 @@ button.close {
   height: 300px;
   margin-bottom: 7px;
   margin-top: 7px;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
-.signup-section h4 {
+.signup-section h5 {
   color: #8cccbf;
-  font-weight: 200;
+  font-weight: 400;
+  padding-bottom: 20px;
 }
 
 .signup-section span {
   border-radius: 8px;
   color: #fff;
+  padding: 0 25px;
   background-color: #96d4c7;
   border: transparent;
 }
@@ -11069,15 +11099,23 @@ button.close {
   color: #fff;
 }
 
-.footer h5 {
-  margin-top: 0px;
-}
-
-.footer h4 {
-  margin-top: 0px;
+.footer footer
+h5 {
+  margin-top: 0;
+  color: #8cccbf;
 }
 
 .footer ul {
   padding-top: 10px;
   list-style-type: none;
+}
+
+.footer .address-block {
+  font-weight: 300;
+}
+
+.footer .address-block address {
+  letter-spacing: 1.5px;
+  font-weight: 200;
+  font-size: 12px;
 }
