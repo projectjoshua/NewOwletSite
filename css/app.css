@@ -10871,7 +10871,7 @@ button.close {
 
 .info-section .clinical-content p {
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1.50px;
   line-height: 18px;
 }
@@ -10882,33 +10882,58 @@ button.close {
 
 .info-section .clinical-image {
   padding-right: 0px;
-  padding-left: 4px;
+  padding-left: 0px;
 }
 
 .info-section img {
   height: 375px;
 }
 
+.info-section .bottom {
+  padding-bottom: 7px;
+  margin-top: 7px;
+}
+
+.info-section .bottom h3 {
+  font-weight: 300;
+}
+
+.info-section .bottom p {
+  font-weight: 300;
+  letter-spacing: 1.50px;
+  line-height: 18px;
+}
+
 .info-section .vitals-content-left {
   background: #aeddd4;
   color: #fff;
+  height: 375px;
+  padding-top: 9%;
+}
+
+.info-section .vitals-content-left .row {
+  margin: auto 70px;
+}
+
+.info-section .vitals-content-left img {
+  width: 40px;
+  height: 35px;
 }
 
 .info-section .vitals-content-right {
   background: #96d4c7;
   color: #fff;
+  height: 375px;
+  padding-top: 8%;
 }
 
-.info-section .bottom {
-  padding-bottom: 7px;
+.info-section .vitals-content-right .row {
+  margin: auto 70px;
 }
 
-.info-section .bottom h3 {
-  padding-top: 20%;
-}
-
-.info-section .bottom p {
-  padding-bottom: 20%;
+.info-section .vitals-content-right img {
+  width: 40px;
+  height: 44px;
 }
 
 .product-section {
@@ -10968,20 +10993,72 @@ button.close {
   margin-top: 7px;
 }
 
+.data-content {
+  padding-top: 16%;
+}
+
+.data-content h1 {
+  font-weight: 300;
+  letter-spacing: 1.50px;
+}
+
+.data-content p {
+  font-weight: 300;
+  letter-spacing: 1.50px;
+  line-height: 18px;
+}
+
+.data-content .row {
+  margin: auto 40px;
+}
+
 .testimonials-section {
-  padding-top: 7px;
+  margin-top: 7px;
+  padding-top: 140px;
   padding-bottom: 7px;
+  background-image: url("../img/babyandmom.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  color: #fff;
+}
+
+.testimonials-section h1 {
+  font-weight: 300;
+}
+
+.testimonials-section button {
+  margin-top: 30px;
+  background-color: #ffba93;
+  border-color: #ffb58b;
+  border-radius: 14px;
+  border-width: 2px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .signup-section {
   background: #f7f7f5;
   height: 300px;
   margin-bottom: 7px;
+  margin-top: 7px;
+  padding-top: 90px;
 }
 
 .signup-section h4 {
   color: #8cccbf;
   font-weight: 200;
+}
+
+.signup-section span {
+  border-radius: 8px;
+  color: #fff;
+  background-color: #96d4c7;
+  border: transparent;
 }
 
 .footer {
@@ -10992,6 +11069,15 @@ button.close {
   color: #fff;
 }
 
+.footer h5 {
+  margin-top: 0px;
+}
+
+.footer h4 {
+  margin-top: 0px;
+}
+
 .footer ul {
+  padding-top: 10px;
   list-style-type: none;
 }
