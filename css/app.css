@@ -10784,6 +10784,67 @@ button.close {
   clip: auto;
 }
 
+@media screen and (max-width: 320px) {
+  .info-section .clinical-image {
+    display: none;
+  }
+  .info-section .vitals-content-left, .vitals-content-right {
+    padding-top: 55px;
+  }
+  .info-section .row .clinical-content {
+    padding-top: 21px;
+  }
+  .data-content {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+  .testimonials-section {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info-section .row .clinical-content {
+    padding-top: 60px;
+  }
+  .info-section .vitals-content-left, .vitals-content-right {
+    padding-top: 65px;
+  }
+  .data-content {
+    padding-bottom: 30px;
+  }
+  .testimonials-section {
+    padding-top: 160px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .info-section .row .clinical-content {
+    padding-top: 80px;
+  }
+  .info-section .vitals-content-left, .vitals-content-right {
+    padding-top: 85px;
+  }
+  .info-section .vitals-content-left, .vitals-content-right {
+    padding-top: 85px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .info-section .row .clinical-content {
+    padding-top: 110px;
+  }
+  .info-section .vitals-content-left, .vitals-content-right {
+    padding-top: 95px;
+  }
+  .info-section .vitals-content-left, .vitals-content-right {
+    padding-top: 95px;
+  }
+  .data-content {
+    padding-top: 200px;
+  }
+}
+
 .navbar {
   font-size: 14px;
   margin-bottom: 0;
@@ -10866,12 +10927,12 @@ button.close {
 .info-section .clinical-content {
   background: #929497;
   height: 375px;
-  padding-top: 9%;
+  padding-top: 110px;
 }
 
 .info-section .clinical-content h2 {
   color: #c5e6de;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .info-section .clinical-content p {
@@ -10913,7 +10974,6 @@ button.close {
   background: #aeddd4;
   color: #fff;
   height: 375px;
-  padding-top: 9%;
 }
 
 .info-section .vitals-content-left .row {
@@ -10929,7 +10989,6 @@ button.close {
   background: #96d4c7;
   color: #fff;
   height: 375px;
-  padding-top: 8%;
 }
 
 .info-section .vitals-content-right .row {
@@ -11022,10 +11081,6 @@ button.close {
   margin-top: 7px;
 }
 
-.data-content {
-  padding-top: 16%;
-}
-
 .data-content h1 {
   font-weight: 300;
   letter-spacing: 1.50px;
@@ -11038,12 +11093,11 @@ button.close {
 }
 
 .data-content .row {
-  margin: auto 40px;
+  margin: auto 20px;
 }
 
 .testimonials-section {
   margin-top: 7px;
-  padding-top: 140px;
   padding-bottom: 7px;
   background-image: url("../img/babyandmom.png");
   background-repeat: no-repeat;
